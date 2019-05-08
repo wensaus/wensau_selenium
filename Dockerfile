@@ -25,4 +25,5 @@ RUN unzip chromedriver_linux64.zip &&\
     apt-get install -y -f &&\
     apt-get install -y google-chrome-stable &&\
     pip3 install selenium &&\
+    pip3 install oss2 &&\
     fc-cache -fv
