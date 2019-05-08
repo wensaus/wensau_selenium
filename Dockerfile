@@ -13,7 +13,7 @@ RUN mkdir /home/admin && \
     apt-get install -y python3 &&\
     apt-get install -y python3-pip &&\
     wget http://fbi-fonts.oss-cn-shanghai.aliyuncs.com/msyh.ttf -O /home/admin/msyh.ttf &&\
-    wget https://npm.taobao.org/mirrors/chromedriver/75.0.3770.8//chromedriver_linux64.zip -O /opt/Chrome/chromedriver_linux64.zip &&\
+    wget http://cdn.npm.taobao.org/dist/chromedriver/74.0.3729.6/chromedriver_linux64.zip -O /opt/Chrome/chromedriver_linux64.zip &&\
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /opt/Chrome/google-chrome-stable_current_amd64.deb &&\
     cp /home/admin/msyh.ttf /usr/share/fonts/chinese/TrueType/
 
